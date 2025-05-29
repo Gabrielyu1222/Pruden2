@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font-family: Arial, sans-serif; font-weight: bold; }
+    .subtext { font-family: Arial, sans-serif; font-size: 14px; letter-spacing: 0.5px; }
+    .chinese { font-family: "Microsoft YaHei", "SimHei", sans-serif; }
+    .button { font-family: Arial, sans-serif; font-size: 12px; }
+  </style>
+  <!-- Logo mark -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="50" height="50" fill="#1B365D"/>
+    <rect x="10" y="10" width="20" height="20" fill="#ED1C24"/>
+    <rect x="30" y="30" width="20" height="20" fill="#ED1C24"/>
+  </g>
+  <!-- Text -->
+  <text x="80" y="45" class="text" fill="#000000" font-size="36">PRUDENTIAL</text>
+  <text x="80" y="65" class="subtext" fill="#666666">SURVEYING • LAND ADVISORY • VALUATION</text>
+  <text x="360" y="45" class="chinese" fill="#000000" font-size="24">測建行</text>
+  
+  <!-- Image Type Buttons -->
+  <g transform="translate(80, 80)">
+    <!-- Visual Image Button -->
+    <rect x="0" y="0" width="80" height="25" rx="5" fill="#1B365D"/>
+    <text x="40" y="17" class="button" fill="white" text-anchor="middle">Visual</text>
+    
+    <!-- Infrared Image Button -->
+    <rect x="90" y="0" width="80" height="25" rx="5" fill="#1B365D"/>
+    <text x="130" y="17" class="button" fill="white" text-anchor="middle">Infrared</text>
+    
+    <!-- Hyperspectral Image Button -->
+    <rect x="180" y="0" width="120" height="25" rx="5" fill="#1B365D"/>
+    <text x="240" y="17" class="button" fill="white" text-anchor="middle">Hyperspectral</text>
+  </g>
+</svg> 
